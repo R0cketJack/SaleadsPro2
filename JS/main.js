@@ -57,13 +57,6 @@ const swiper = new Swiper('.swiper',  {
         spaceBetween: 0,
         centeredSlides: false,
       },
-      // when window width is >= 480px
-      // 481: {
-      //   slidesPerView: 'auto',
-      //   spaceBetween: 0,
-      //   centeredSlides: true,
-      // },
-     
     },
   });
 
@@ -87,7 +80,6 @@ document.getElementById('burger-menu_close').addEventListener('click', function(
 
 
 let links = document.getElementsByClassName('burger-menu_modern-skills');
-// console.log(links);
 for (let elem of links) {
   elem.addEventListener("click", function(e){
     e.preventDefault();
@@ -107,7 +99,6 @@ for (let elem of links) {
 let ancors = document.getElementsByClassName('link_scroll');
 for (let elem of ancors) {
   elem.addEventListener("click", function(e){
-    console.log(e);
     e.preventDefault();
     let link = e.target;
     let linkTarget = document.querySelector(link.getAttribute('href'));
@@ -119,7 +110,6 @@ for (let elem of ancors) {
 
 
 document.body.addEventListener('click', function(e) {
-  console.log(e.composedPath());
   const isMenu = e.target.closest('.hamburger_container');
   const ismenuBtn = e.target.getAttribute('id') == 'burger-menu' || e.target.closest('#burger-menu');
   if (!isMenu && !ismenuBtn) closeMenu();

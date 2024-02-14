@@ -144,7 +144,6 @@ font-family: 'Raleway', sans-serif; */
     font-size: 18px;
     color: white;
     font-weight: bold;
-    background: rgb(219,105,238);
     background: linear-gradient(180deg, rgba(219,105,238,1) 0%, rgba(179,105,238,1) 100%);
     padding-top: 15px;
     padding-bottom: 15px;
@@ -155,6 +154,12 @@ font-family: 'Raleway', sans-serif; */
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%), 
         inset 0 4px 14px 0 rgba(212, 126, 253, 35%);
 
+}
+
+.find_content a:hover {
+    background: rgb(235, 122, 255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.123), 
+        inset 0 4px 14px 0 rgba(208, 112, 253, 0.35);
 }
 
 .menu_header{
@@ -352,6 +357,12 @@ font-family: 'Raleway', sans-serif; */
         inset 0 4px 14px 0 rgba(212, 126, 253, 35%);
 }
 
+.choose_content_price_all_container_slider a:hover {
+    background: rgb(235, 122, 255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.123), 
+        inset 0 4px 14px 0 rgba(208, 112, 253, 0.35);
+}
+
 .swiper-slide {
     height: auto;
 }
@@ -494,6 +505,12 @@ font-family: 'Raleway', sans-serif; */
 
 }
 
+.anywhere_content a:hover {
+    background: rgb(235, 122, 255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.123), 
+        inset 0 4px 14px 0 rgba(208, 112, 253, 0.35);
+}
+
 .decor5 {
     background: url(../img/anywhere_foto.png) no-repeat;
     width: 886px;
@@ -512,7 +529,7 @@ font-family: 'Raleway', sans-serif; */
     position: absolute;
     z-index: 1;
     left: 70px;
-    top: 40px;
+    top: 70px;
 }
 
 .decor7 {
@@ -752,6 +769,11 @@ font-family: 'Raleway', sans-serif; */
         inset 0 4px 14px 0 rgba(212, 126, 253, 35%);
 }
 
+.choose_content_price_all_container a:hover {
+    background: rgb(235, 122, 255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.123), 
+        inset 0 4px 14px 0 rgba(208, 112, 253, 0.35);
+}
 
 .choose_content_span{
     font-family: 'Commissioner', sans-serif;
@@ -853,6 +875,12 @@ font-family: 'Raleway', sans-serif; */
     font-size: 18px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%), 
         inset 0 4px 14px 0 rgba(212, 126, 253, 35%);
+}
+
+.education_goingchoose a:hover {
+    background: rgb(235, 122, 255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.123), 
+        inset 0 4px 14px 0 rgba(208, 112, 253, 0.35);
 }
 
 .decor9 {
@@ -1040,8 +1068,14 @@ font-family: 'Raleway', sans-serif; */
     text-decoration: none;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 25%), 
         inset 0 4px 14px 0 rgba(212, 126, 253, 35%);
-    
 }
+
+.btn_childbook a:hover {
+    background: rgb(235, 122, 255);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.123), 
+        inset 0 4px 14px 0 rgba(208, 112, 253, 0.35);
+}
+
 .btn_childbook {
     padding-top: 32px;
     width: 100%;
@@ -2079,6 +2113,24 @@ font-family: 'Raleway', sans-serif; */
     align-items: center;
 }
 
+
+
+
+.sections_of {
+    align-items: center;
+}
+
+.categories {
+    align-items: center;
+}
+
+.menu_left {
+    align-items: center;
+}
+
+.menu_right {
+    align-items: center;
+}
 
 
 
