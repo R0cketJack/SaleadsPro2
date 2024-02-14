@@ -27,7 +27,7 @@ const swiper = new Swiper('.swiper',  {
       },
       768: {
         slidesPerView: '2',
-        spaceBetween: 80,
+        spaceBetween: 0,
         centeredSlides: true,
       },
       1024: {
@@ -107,6 +107,7 @@ for (let elem of links) {
 let ancors = document.getElementsByClassName('link_scroll');
 for (let elem of ancors) {
   elem.addEventListener("click", function(e){
+    console.log(e);
     e.preventDefault();
     let link = e.target;
     let linkTarget = document.querySelector(link.getAttribute('href'));
@@ -116,5 +117,12 @@ for (let elem of ancors) {
   })
 }
 
+
+document.body.addEventListener('click', function(e) {
+  console.log(e.composedPath());
+  const isMenu = e.target.closest('.hamburger_container');
+  const ismenuBtn = e.target.getAttribute('id') == 'burger-menu' || e.target.closest('#burger-menu');
+  if (!isMenu && !ismenuBtn) closeMenu();
+})
 
 
